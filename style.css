@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+.grid{
+    display: flex;
+    padding: 20px;
+}
+.cell,
+.cellDrawn{
+    flex:1;
+    width: 30px;
+    height:30px;
+}
+.cell{
+    background-color: white;
+}
+
+.cellDrawn{
+    background-color:aqua;
+}
+.cellHover{
+    background-color: aliceblue;
+}
+
+
+#container{
+    width:520px;
+    height:520px;
+    background-color: rgb(54, 54, 54);
+}
+
+
