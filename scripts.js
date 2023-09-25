@@ -58,7 +58,6 @@ function gridSketchpad(dimensions){
 
             cell.addEventListener('mouseover', ()=>{
                 if (isMouseDown === true){
-                    cell.className = 'cellDrawn';
                     cell.style.backgroundColor = `${cellColor}`;
                     
                 }
