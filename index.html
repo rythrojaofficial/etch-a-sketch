@@ -8,17 +8,18 @@
 </head>
 <body>
     <h1>Etch-a-Sketch</h1>
+    <div class="container">
+    <div id="yxy-display">20 x 20</div>
+        <input type="range" min="2" max="100" id="input-dimensions-slider" value="20">
 
-<div>
-    Columns <input type="number" id="input-columns" value="16">
-    <br>
-    Rows <input type="number" id="input-rows" value="16">
-    <button id="generate-sketchpad">Generate Sketchpad</button>
+    <div>
+        <input id="input-color" type="color" value="#000000"> 
+            <span id="color-display">#000000</span>
+    </div>
+    <div id="sketchpad-container">
+        <div id="sketchpad"></div>
+    </div>
 </div>
-<div id="container">
-    <div id="sketchpad"></div>
-</div>
-
 
 
 
