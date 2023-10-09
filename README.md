@@ -1,4 +1,4 @@
 # etch-a-sketch
-eas-TOP
 
-Etch-a-Sketch project through the odin project
+Etch-a-Sketch project made using html, css, and javascript
+[live demo](https://rythrojaofficial.github.io/etch-a-sketch/)
